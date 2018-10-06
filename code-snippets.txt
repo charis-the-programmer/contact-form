@@ -1,0 +1,30 @@
+in C:\xampp\php\php.ini
+
+uncomment --> extension=php_openssl.dll
+
+
+[mail function]
+SMTP=smtp.gmail.com
+smtp_port=465
+sendmail_from=sharklasers1000@gmail.com
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+
+c:\xampp\sendmail\sendmail.ini
+
+
+
+[sendmail]
+
+smtp_server=smtp.gmail.com
+smtp_port=465
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=sharklasers1000@gmail.com
+auth_password=CharisTheProgrammer
+force_sender=sharklasers1000@gmail.com
+
+
+Allow Gmail access for less secure apps:
+
+https://support.google.com/accounts/answer/6010255
